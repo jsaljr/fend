@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang=en>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <title>Juan's Portfolio Site</title>
+    <link rel="stylesheet" href="css/styles.css" media="screen">
+  </head>
+  <body>
+    <header class="header">
+      <div class="header-logo">
+        <img src="img/logo_header.jpg" alt="Site logo" class="header-pic resp-pic">
+      </div>
+      <div class="header-name_job">
+        <h2 class="header-name header-vw-text">Juan Salazar</h2>
+        <h4 class="header-job vw-text">Web developer</h4>
+      </div>
+    </header>
+    <main class="content">
+      <img src="img/main-img500.jpg" 
+           srcset="img/main-img500.jpg 500w,
+                   img/main-img1000.jpg 1000w,
+                   img/main-img1500.jpg 1500w" 
+           sizes="(min-width: 700px) 50vw, (min-width: 900px) 75vw, 100vw"
+           alt="Picture Hero image" 
+           class="content-mainpic resp-pic">
+      <section class="featured-work">
+        <h3 class="featured-name header-vw-text">Featured Work</h3>
+        <div class="featured">
+          <div class="featured-item">
+            <img src="img/globe-img.jpg" alt="global logistics" class="featured-pic resp-pic">
+            <h5 class="featured-desc header-vw-text">Global Logic</h5>
+            <a href="http://www.udacity.com" class="featured-url">Visit Global Logic</a>
+          </div>
+          <div class="featured-item">
+            <img src="img/words-img.jpg" alt="UI Linguistics" class="featured-pic resp-pic">
+            <h5 class="featured-desc header-vw-text">UI Linguistics</h5>
+            <a href="http://www.udacity.com" class="featured-url">Visit UI Linguistics</a>
+          </div>
+          <div class="featured-item">
+            <img src="img/laptop-img.jpg" alt="devices unlimited" class="featured-pic resp-pic">
+            <h5 class="featured-desc header-vw-text">Devices Unlimited</h5>
+            <a href="http://www.udacity.com" class="featured-url">Visit Device Unlimited</a>
+          </div>
+        </div>
+      </section>
+      <footer>
+        <h5 class="footer">All rights reserved. Juan Salazar, 2019.</h5>
+      </footer>
+    </main>
+  </body>
+</html>
